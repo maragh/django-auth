@@ -1,0 +1,32 @@
+{
+  "name": "django_auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel static/src/index.js --out-dir static/dist --no-source-maps",
+    "build": "parcel build static/src/index.js --out-dir static/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maragh/django-auth.git"
+  },
+  "keywords": [],
+  "author": "Jermaine Maragh <jermainemaragh@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maragh/django-auth/issues"
+  },
+  "homepage": "https://github.com/maragh/django-auth#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "css": "^3.0.0",
+    "jquery": "^3.5.1",
+    "js": "^0.1.0",
+    "popper.js": "^1.16.1"
+  }
+}
