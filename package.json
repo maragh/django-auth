@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel static/src/index.js --out-dir static/dist --no-source-maps",
-    "build": "parcel build static/src/index.js --out-dir static/dist"
+    "build": "parcel build static/src/index.js --out-dir static/dist --no-source-maps"
   },
   "repository": {
     "type": "git",
