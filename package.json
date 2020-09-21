@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/maragh/django-auth#readme",
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
     "parcel-bundler": "^1.12.4"
   },
   "dependencies": {

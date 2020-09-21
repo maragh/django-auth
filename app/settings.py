@@ -126,3 +126,9 @@ STATICFILES_DIRS = (
    ('dist', os.path.join(BASE_DIR, 'static', 'dist')),
    (os.path.join(BASE_DIR, 'static', 'dist')),
 )
+
+
+AUTH_USER_MODEL = "django_auth.User"
+
+LOGIN_URL = '/registration/login'
+LOGIN_REDIRECT_URL = "/"
