@@ -14,3 +14,7 @@ db.sqlite3-journal
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
+node_modules
+
+
+.cache
