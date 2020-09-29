@@ -2,21 +2,19 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
+    <meta name="description" content="Jermaine Maragh web application developer portfolio">
+    <meta name="keywords" content="jermainemaragh.dev, Django, Python,">
+    <meta name="author" content="Jermaine Maragh">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700|Raleway:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'dist/index.css' %}">
-
-    <title>{% block title %}{% endblock  %}</title>
+    <title>Jermaine Maragh</title>
   </head>
   <body>
-    <div class="row justify-content-center">
-      <div class="col-sm-12 col-md-6 mt-5">
-        {% block content %}{% endblock  %}
-      <div>
-    </div>
+    {% block content %}{% endblock  %}
     <script src="{% static 'dist/index.js' %}" ></script>
   </body>
 </html>
